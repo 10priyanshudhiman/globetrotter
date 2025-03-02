@@ -395,3 +395,6 @@
 2025/03/02 15:34:39 Connected to redis
 2025/03/02 15:34:44 failed to set clues_3 for key live_clues: dial tcp 35.213.168.149:6379: i/o timeout
 2025/03/02 15:34:44 API Server listening on port :5000
+2025/03/02 15:58:32 Connected to redis
+2025/03/02 15:58:37 failed to set clues_4 for key live_clues: dial tcp 35.213.168.149:6379: i/o timeout
+2025/03/02 15:58:37 API Server listening on port :5000
