@@ -17,7 +17,7 @@ import (
 )
 
 func main() {
-	config.ReadConfig("../common/config")
+	config.LoadConfig()
 
 	writer, err := rotatelogs.New(
 		fmt.Sprintf("%s%s", config.C.Log.Path, config.C.Log.ApiName),
