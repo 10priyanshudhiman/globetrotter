@@ -8,6 +8,7 @@ import (
 	"globetrotter_api/router"
 	"log"
 	"net/http"
+	"os"
 	"time"
 
 	"github.com/labstack/echo/v4"
@@ -59,7 +60,7 @@ func main() {
 	e = router.NewRouter(e, r.NewAppController())
 
 	log.Println("API Server listening on port", config.C.Server.ApiPort)
-	if err := e.Start(config.C.Server.ApiPort); err != nil {
+	if err := e.Start(fmt.Sprintf("0.0.0.0:" + os.Getenv("PORT"))); err != nil {
 		log.Fatalln(err)
 	}
 
