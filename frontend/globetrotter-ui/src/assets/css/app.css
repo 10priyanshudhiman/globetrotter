@@ -1,0 +1,202 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Centered container */
+  .container {
+    width: 400px;
+    margin: 100px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Input field */
+  input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Buttons */
+  button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  /* Cards Grid */
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .card:hover {
+    background: #ddd;
+  }
+  
+
+  .header {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #007bff; 
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 200px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px; 
+}
+
+.header span {
+    font-weight: bold;
+    width: 100%;
+}
+
+.header button {
+    background-color: white;
+    color: #007bff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    width: 100%; 
+}
+
+.header button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Make container bigger */
+.container-responses {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Header */
+  h2 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  /* Clues Section */
+  .clues-section, .cities-section {
+    margin: 20px 0;
+  }
+  
+  /* Clue Cards */
+  .clue-card {
+    background: #e3f2fd;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 5px;
+    font-weight: bold;
+    display: inline-block;
+    width: 200px;
+  }
+  
+  /* City List (for better alignment) */
+  .city-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  /* City Cards */
+  .city-card {
+    padding: 12px 18px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: 2px solid transparent;
+    font-size: 16px;
+    width: 150px;
+    text-align: center;
+  }
+  
+  /* Change to Green when selected */
+  .city-card.selected {
+    background: #28a745;
+    color: white;
+    border-color: #1e7e34;
+    font-weight: bold;
+  }
+  
+  /* Hover effect */
+  .city-card:hover {
+    background: #c3e6cb;
+  }
+  
+  /* Button */
+  button {
+    background: #007bff;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  button:hover:not(:disabled) {
+    background: #0056b3;
+  }
+
+  
+
+
+  
+  
+

@@ -1,0 +1,29 @@
+server:
+  env: "live"
+  apiPort: ":5000"
+
+log:
+  path: "./logs/"
+  apiName: "affluenceAPILogs-%Y-%m-%d.log"
+  rotationTime: 24
+  maxAge: 0
+
+redis:
+  host: "localhost"
+  port: "6379"
+  password: ""
+  db: 0
+  key: 
+    countryCity: "_country_cities"
+    cluesMapping: "_clues"
+    funFactMapping: "_funFacts"
+    triviaMapping: "_trivia"
+    countryClues: "_country_clues"
+    countryFunFact: "_country_fun_facts"
+    countryTrivia: "_country_trivia"
+    countryCityClues: "_country_city_clues"
+    countryCityFunFact: "_country_city_fun_facts"
+    countryCityTrivia: "_country_city_trivia"
+    user: "_users"
+   
+    

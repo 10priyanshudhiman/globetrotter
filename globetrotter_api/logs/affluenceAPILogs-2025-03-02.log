@@ -1,0 +1,370 @@
+2025/03/02 00:18:05 Connected to redis
+2025/03/02 00:18:44 Connected to redis
+2025/03/02 00:40:41 Connected to redis
+2025/03/02 00:40:41 API Server listening on port :5000
+2025/03/02 00:40:41 listen tcp: address ::5000: too many colons in address
+2025/03/02 00:41:02 Connected to redis
+2025/03/02 00:41:02 API Server listening on port :5000
+2025/03/02 01:40:22 Connected to redis
+2025/03/02 01:40:22 API Server listening on port :5000
+2025/03/02 01:52:18 Connected to redis
+2025/03/02 01:52:18 API Server listening on port :5000
+2025/03/02 01:53:10 RECIEVED userId "abc"
+2025/03/02 01:54:17 Connected to redis
+2025/03/02 01:54:17 API Server listening on port :5000
+2025/03/02 01:54:21 RECIEVED userId "abc"
+2025/03/02 01:54:29 RECIEVED userId "abc"
+2025/03/02 01:54:29 error in fetching user details unexpected end of JSON input
+2025/03/02 02:00:26 Connected to redis
+2025/03/02 02:00:26 API Server listening on port :5000
+2025/03/02 02:00:36 RECIEVED userId "abc"
+2025/03/02 02:00:49 RECIEVED userId "abc"
+2025/03/02 02:01:54 RECIEVED userId abc
+2025/03/02 02:19:26 Connected to redis
+2025/03/02 02:19:26 API Server listening on port :5000
+2025/03/02 02:22:37 Connected to redis
+2025/03/02 02:22:37 API Server listening on port :5000
+2025/03/02 02:23:52 RECIEVED user action {abc 13 true}
+2025/03/02 02:24:04 RECIEVED user action {abc -13 false}
+2025/03/02 02:24:11 RECIEVED user action {abcd -13 false}
+2025/03/02 02:24:11 error in updating user details redis: nil
+2025/03/02 02:24:16 RECIEVED user action {abc -13 false}
+2025/03/02 03:07:38 Connected to redis
+2025/03/02 03:07:38 API Server listening on port :5000
+2025/03/02 04:05:40 Connected to redis
+2025/03/02 04:05:40 API Server listening on port :5000
+2025/03/02 04:07:20 RECIEVED Country abc
+2025/03/02 04:07:24 RECIEVED Country abc
+2025/03/02 04:09:22 Connected to redis
+2025/03/02 04:09:22 API Server listening on port :5000
+2025/03/02 04:09:26 RECIEVED Country abc
+2025/03/02 04:10:26 Connected to redis
+2025/03/02 04:10:26 API Server listening on port :5000
+2025/03/02 04:10:29 RECIEVED Country abc
+2025/03/02 04:12:38 Connected to redis
+2025/03/02 04:12:38 API Server listening on port :5000
+2025/03/02 04:12:42 RECIEVED Country abc
+2025/03/02 04:12:43 RECIEVED Country abc
+2025/03/02 04:12:44 RECIEVED Country abc
+2025/03/02 04:12:50 Connected to redis
+2025/03/02 04:12:50 API Server listening on port :5000
+2025/03/02 04:12:53 RECIEVED Country abc
+2025/03/02 04:13:47 Connected to redis
+2025/03/02 04:13:47 API Server listening on port :5000
+2025/03/02 04:13:49 RECIEVED Country France
+2025/03/02 04:14:06 RECIEVED Country France
+2025/03/02 04:14:09 RECIEVED Country France
+2025/03/02 04:14:10 RECIEVED Country France
+2025/03/02 04:14:45 Connected to redis
+2025/03/02 04:14:45 API Server listening on port :5000
+2025/03/02 04:14:51 RECIEVED Country s
+2025/03/02 04:15:17 Connected to redis
+2025/03/02 04:15:17 API Server listening on port :5000
+2025/03/02 04:15:21 RECIEVED Country s
+2025/03/02 04:15:24 RECIEVED Country s
+2025/03/02 04:15:26 RECIEVED Country s
+2025/03/02 04:15:35 Connected to redis
+2025/03/02 04:15:35 API Server listening on port :5000
+2025/03/02 04:15:37 RECIEVED Country s
+2025/03/02 04:15:38 RECIEVED Country s
+2025/03/02 04:16:25 RECIEVED Country USA
+2025/03/02 04:25:00 Connected to redis
+2025/03/02 04:25:00 API Server listening on port :5000
+2025/03/02 04:25:03 RECIEVED Country USA
+2025/03/02 04:25:20 RECIEVED Country a
+2025/03/02 04:25:28 RECIEVED Country USA
+2025/03/02 05:25:09 Connected to redis
+2025/03/02 05:25:09 API Server listening on port :5000
+2025/03/02 05:25:12 RECIEVED verify user action [{France Paris clues1}]
+2025/03/02 05:25:28 RECIEVED verify user action [{France Paris clues2}]
+2025/03/02 05:25:37 RECIEVED verify user action [{France Paris clues1}]
+2025/03/02 05:28:39 Connected to redis
+2025/03/02 05:28:39 API Server listening on port :5000
+2025/03/02 05:28:42 RECIEVED verify user action [{France Paris clues1}]
+2025/03/02 05:29:34 Connected to redis
+2025/03/02 05:29:34 API Server listening on port :5000
+2025/03/02 05:29:37 RECIEVED verify user action [{France Paris clues1}]
+2025/03/02 05:29:37 verify false France#Paris [clues_1 clues_2]
+2025/03/02 05:30:19 Connected to redis
+2025/03/02 05:30:19 API Server listening on port :5000
+2025/03/02 05:30:22 RECIEVED verify user action [{France Paris clues1}]
+2025/03/02 05:30:22 verify false France#Paris [clues_1 clues_2] clues1
+2025/03/02 05:30:36 RECIEVED verify user action [{France Paris clues_1}]
+2025/03/02 05:30:43 RECIEVED verify user action [{France Paris clues_2}]
+2025/03/02 05:30:47 RECIEVED verify user action [{France Paris clues_3}]
+2025/03/02 05:30:47 verify false France#Paris [clues_1 clues_2] clues_3
+2025/03/02 05:30:50 RECIEVED verify user action [{France Paris clues_4}]
+2025/03/02 05:30:50 verify false France#Paris [clues_1 clues_2] clues_4
+2025/03/02 05:35:03 Connected to redis
+2025/03/02 05:35:03 failed to set clues_1 for key live_clues: dial tcp: address default:OynFGNfGtaSaoPFsebRuQOQXdqpaLQTE@tramway.proxy.rlwy.net:222763: too many colons in address
+2025/03/02 05:35:03 API Server listening on port :5000
+2025/03/02 05:35:46 Connected to redis
+2025/03/02 05:35:46 failed to set clues_2 for key live_clues: dial tcp: address 222763: invalid port
+2025/03/02 05:35:46 API Server listening on port :5000
+2025/03/02 05:37:43 Connected to redis
+2025/03/02 05:37:54 API Server listening on port :5000
+2025/03/02 05:41:19 Connected to redis
+2025/03/02 05:41:19 API Server listening on port :5000
+2025/03/02 10:14:26 Connected to redis
+2025/03/02 10:14:26 API Server listening on port :5000
+2025/03/02 10:16:10 RECIEVED userId ab
+2025/03/02 10:17:49 RECIEVED userId ab
+2025/03/02 10:21:28 RECIEVED userId abc
+2025/03/02 10:42:54 Connected to redis
+2025/03/02 10:42:54 API Server listening on port :5000
+2025/03/02 10:43:46 Connected to redis
+2025/03/02 10:43:46 API Server listening on port :5000
+2025/03/02 11:00:03 Connected to redis
+2025/03/02 11:00:03 API Server listening on port :5000
+2025/03/02 11:00:03 listen tcp :5000: bind: address already in use
+2025/03/02 11:00:51 Connected to redis
+2025/03/02 11:00:51 API Server listening on port :5000
+2025/03/02 11:01:23 RECIEVED Country undefined
+2025/03/02 11:01:23 error in fetching game details redis: nil
+2025/03/02 11:01:23 RECIEVED Country undefined
+2025/03/02 11:01:23 error in fetching game details redis: nil
+2025/03/02 11:03:54 RECIEVED Country France
+2025/03/02 11:06:20 RECIEVED Country France
+2025/03/02 11:30:18 RECIEVED Country France
+2025/03/02 11:32:51 RECIEVED Country France
+2025/03/02 11:32:51 RECIEVED Country France
+2025/03/02 11:33:57 RECIEVED Country France
+2025/03/02 11:33:57 RECIEVED Country France
+2025/03/02 11:34:02 RECIEVED userId abc
+2025/03/02 11:34:05 RECIEVED Country Japan
+2025/03/02 11:34:05 RECIEVED Country Japan
+2025/03/02 11:34:54 RECIEVED Country Japan
+2025/03/02 11:35:25 RECIEVED Country Japan
+2025/03/02 11:38:02 RECIEVED Country Japan
+2025/03/02 11:42:20 RECIEVED verify user action [{ Paris } { New York } { Tokyo }]
+2025/03/02 11:42:20 verify false #Paris []
+2025/03/02 11:42:47 RECIEVED userId abc
+2025/03/02 11:42:51 RECIEVED Country France
+2025/03/02 11:42:51 RECIEVED Country France
+2025/03/02 11:44:52 RECIEVED userId abc
+2025/03/02 11:44:54 RECIEVED Country France
+2025/03/02 11:44:54 RECIEVED Country France
+2025/03/02 11:45:01 RECIEVED userId abc
+2025/03/02 11:45:03 RECIEVED Country Japan
+2025/03/02 11:45:03 RECIEVED Country Japan
+2025/03/02 11:45:48 RECIEVED verify user action [{ Paris }]
+2025/03/02 11:45:48 verify false #Paris []
+2025/03/02 11:56:16 RECIEVED Country Japan
+2025/03/02 11:56:16 RECIEVED Country Japan
+2025/03/02 11:56:21 RECIEVED verify user action [{Japan Paris clues_3} {Japan Paris clues_4} {Japan New York clues_3} {Japan New York clues_4}]
+2025/03/02 11:56:21 verify false Japan#Paris []
+2025/03/02 12:03:47 RECIEVED Country France
+2025/03/02 12:03:47 RECIEVED Country France
+2025/03/02 12:03:49 RECIEVED verify user action [{France Tokyo clues_1} {France Tokyo clues_2}]
+2025/03/02 12:03:49 verify false France#Tokyo []
+2025/03/02 12:04:17 RECIEVED Country USA
+2025/03/02 12:04:17 RECIEVED Country USA
+2025/03/02 12:04:20 RECIEVED verify user action [{USA Paris clues_5} {USA Paris clues_6}]
+2025/03/02 12:04:20 verify false USA#Paris []
+2025/03/02 12:04:23 RECIEVED Country USA
+2025/03/02 12:04:23 RECIEVED Country USA
+2025/03/02 12:04:25 RECIEVED verify user action [{USA New York clues_5} {USA New York clues_6}]
+2025/03/02 12:04:27 RECIEVED Country USA
+2025/03/02 12:04:27 RECIEVED Country USA
+2025/03/02 12:04:29 RECIEVED verify user action [{USA Tokyo clues_5} {USA Tokyo clues_6}]
+2025/03/02 12:04:29 verify false USA#Tokyo []
+2025/03/02 12:23:09 RECIEVED userId priyanshu
+2025/03/02 12:23:12 RECIEVED Country France
+2025/03/02 12:23:12 RECIEVED Country France
+2025/03/02 12:27:29 RECIEVED userId abc
+2025/03/02 12:27:31 RECIEVED userId abc
+2025/03/02 12:27:47 RECIEVED userId abc
+2025/03/02 12:28:11 RECIEVED userId abc
+2025/03/02 12:28:22 RECIEVED userId abc
+2025/03/02 12:28:40 RECIEVED userId priyanshu
+2025/03/02 12:28:41 RECIEVED userId priyanshu
+2025/03/02 12:28:56 RECIEVED userId priyanshu
+2025/03/02 12:29:04 RECIEVED userId priyanshu
+2025/03/02 12:30:50 RECIEVED Country USA
+2025/03/02 12:30:50 RECIEVED Country USA
+2025/03/02 12:30:52 RECIEVED verify user action [{USA Paris clues_5} {USA Paris clues_6}]
+2025/03/02 12:30:52 verify false USA#Paris []
+2025/03/02 12:34:40 RECIEVED userId abc
+2025/03/02 12:36:46 RECIEVED userId abc
+2025/03/02 12:59:13 RECIEVED userId abc
+2025/03/02 12:59:15 RECIEVED Country France
+2025/03/02 12:59:15 RECIEVED Country France
+2025/03/02 12:59:17 RECIEVED verify user action [{France Tokyo clues_1} {France Tokyo clues_2}]
+2025/03/02 12:59:17 verify false France#Tokyo []
+2025/03/02 13:00:12 RECIEVED Country USA
+2025/03/02 13:00:12 RECIEVED Country USA
+2025/03/02 13:00:16 RECIEVED verify user action [{USA Paris clues_5} {USA Paris clues_6}]
+2025/03/02 13:00:16 verify false USA#Paris []
+2025/03/02 13:01:34 RECIEVED userId abc
+2025/03/02 13:01:37 RECIEVED Country USA
+2025/03/02 13:01:37 RECIEVED Country USA
+2025/03/02 13:01:39 RECIEVED verify user action [{USA Paris clues_5} {USA Paris clues_6}]
+2025/03/02 13:01:39 verify false USA#Paris []
+2025/03/02 13:03:24 RECIEVED Country France
+2025/03/02 13:03:24 RECIEVED Country France
+2025/03/02 13:03:26 RECIEVED verify user action [{France Tokyo clues_1} {France Tokyo clues_2}]
+2025/03/02 13:03:26 verify false France#Tokyo []
+2025/03/02 13:09:10 RECIEVED Country USA
+2025/03/02 13:09:10 RECIEVED Country USA
+2025/03/02 13:09:12 RECIEVED verify user action [{USA Paris clues_5} {USA Paris clues_6}]
+2025/03/02 13:09:12 verify false USA#Paris []
+2025/03/02 13:10:01 RECIEVED Country USA
+2025/03/02 13:10:01 RECIEVED Country USA
+2025/03/02 13:10:04 RECIEVED verify user action [{USA Paris clues_5} {USA Paris clues_6}]
+2025/03/02 13:10:04 verify false USA#Paris []
+2025/03/02 13:10:25 RECIEVED Country Japan
+2025/03/02 13:10:25 RECIEVED Country Japan
+2025/03/02 13:10:28 RECIEVED verify user action [{Japan New York clues_3} {Japan New York clues_4}]
+2025/03/02 13:10:28 verify false Japan#New York []
+2025/03/02 13:10:54 RECIEVED user action { -1 false}
+2025/03/02 13:10:54 RECIEVED user action { -1 false}
+2025/03/02 13:10:54 error in updating user details redis: nil
+2025/03/02 13:10:54 error in updating user details redis: nil
+2025/03/02 13:10:58 RECIEVED Country USA
+2025/03/02 13:10:58 RECIEVED Country USA
+2025/03/02 13:11:01 RECIEVED verify user action [{USA New York clues_5} {USA New York clues_6}]
+2025/03/02 13:11:01 RECIEVED user action { 1 true}
+2025/03/02 13:11:01 error in updating user details redis: nil
+2025/03/02 13:11:01 RECIEVED user action { 1 true}
+2025/03/02 13:11:01 error in updating user details redis: nil
+2025/03/02 13:12:03 RECIEVED Country France
+2025/03/02 13:12:03 RECIEVED Country France
+2025/03/02 13:12:09 RECIEVED userId abc
+2025/03/02 13:12:10 RECIEVED Country USA
+2025/03/02 13:12:10 RECIEVED Country USA
+2025/03/02 13:12:12 RECIEVED verify user action [{USA Paris clues_5} {USA Paris clues_6}]
+2025/03/02 13:12:12 verify false USA#Paris []
+2025/03/02 13:12:13 RECIEVED user action {abc -1 false}
+2025/03/02 13:12:13 RECIEVED user action {abc -1 false}
+2025/03/02 13:14:02 RECIEVED user action {abc -1 false}
+2025/03/02 13:14:18 RECIEVED Country USA
+2025/03/02 13:14:18 RECIEVED Country USA
+2025/03/02 13:14:21 RECIEVED verify user action [{USA Paris clues_5} {USA Paris clues_6}]
+2025/03/02 13:14:21 verify false USA#Paris []
+2025/03/02 13:14:21 RECIEVED user action {abc -1 false}
+2025/03/02 13:14:34 RECIEVED Country France
+2025/03/02 13:14:34 RECIEVED Country France
+2025/03/02 13:14:36 RECIEVED verify user action [{France Paris clues_1} {France Paris clues_2}]
+2025/03/02 13:14:36 RECIEVED user action {abc 1 true}
+2025/03/02 13:18:00 RECIEVED Country France
+2025/03/02 13:18:00 RECIEVED Country France
+2025/03/02 13:18:03 RECIEVED verify user action [{France Tokyo clues_1} {France Tokyo clues_2}]
+2025/03/02 13:18:03 verify false France#Tokyo []
+2025/03/02 13:18:03 RECIEVED user action {abc -1 false}
+2025/03/02 13:19:12 RECIEVED Country USA
+2025/03/02 13:19:12 RECIEVED Country USA
+2025/03/02 13:19:14 RECIEVED verify user action [{USA Paris clues_5} {USA Paris clues_6}]
+2025/03/02 13:19:14 verify false USA#Paris []
+2025/03/02 13:19:15 RECIEVED user action {abc -1 false}
+2025/03/02 13:19:21 RECIEVED Country France
+2025/03/02 13:19:21 RECIEVED Country France
+2025/03/02 13:19:25 RECIEVED verify user action [{France Paris clues_1} {France Paris clues_2}]
+2025/03/02 13:19:25 RECIEVED user action {abc 1 true}
+2025/03/02 13:22:04 RECIEVED Country France
+2025/03/02 13:22:04 RECIEVED Country France
+2025/03/02 13:22:05 RECIEVED verify user action [{France Tokyo clues_1} {France Tokyo clues_2}]
+2025/03/02 13:22:05 verify false France#Tokyo []
+2025/03/02 13:22:05 RECIEVED user action {abc -1 false}
+2025/03/02 13:22:08 RECIEVED Country France
+2025/03/02 13:22:08 RECIEVED Country France
+2025/03/02 13:22:10 RECIEVED verify user action [{France Paris clues_1} {France Paris clues_2}]
+2025/03/02 13:22:10 RECIEVED user action {abc 1 true}
+2025/03/02 13:22:21 RECIEVED Country USA
+2025/03/02 13:22:21 RECIEVED Country USA
+2025/03/02 13:22:23 RECIEVED verify user action [{USA Tokyo clues_5} {USA Tokyo clues_6}]
+2025/03/02 13:22:23 verify false USA#Tokyo []
+2025/03/02 13:22:23 RECIEVED user action {abc -1 false}
+2025/03/02 13:23:53 RECIEVED Country USA
+2025/03/02 13:23:53 RECIEVED Country USA
+2025/03/02 13:23:56 RECIEVED verify user action [{USA Tokyo clues_5} {USA Tokyo clues_6}]
+2025/03/02 13:23:56 verify false USA#Tokyo []
+2025/03/02 13:23:56 RECIEVED user action {abc -1 false}
+2025/03/02 13:24:13 RECIEVED Country France
+2025/03/02 13:24:13 RECIEVED Country France
+2025/03/02 13:24:15 RECIEVED verify user action [{France New York clues_1} {France New York clues_2}]
+2025/03/02 13:24:15 verify false France#New York []
+2025/03/02 13:24:15 RECIEVED user action {abc -1 false}
+2025/03/02 13:24:21 RECIEVED Country France
+2025/03/02 13:24:21 RECIEVED Country France
+2025/03/02 13:24:23 RECIEVED verify user action [{France Paris clues_1} {France Paris clues_2}]
+2025/03/02 13:24:23 RECIEVED user action {abc 1 true}
+2025/03/02 13:24:35 RECIEVED Country France
+2025/03/02 13:24:35 RECIEVED Country France
+2025/03/02 13:24:37 RECIEVED verify user action [{France Paris clues_1} {France Paris clues_2}]
+2025/03/02 13:24:37 RECIEVED user action {abc 1 true}
+2025/03/02 13:25:10 RECIEVED Country France
+2025/03/02 13:25:10 RECIEVED Country France
+2025/03/02 13:26:22 RECIEVED verify user action [{France New York clues_1} {France New York clues_2}]
+2025/03/02 13:26:22 verify false France#New York []
+2025/03/02 13:26:22 RECIEVED user action {abc -1 false}
+2025/03/02 13:32:52 Connected to redis
+2025/03/02 13:32:52 API Server listening on port :5000
+2025/03/02 13:33:05 RECIEVED Country France
+2025/03/02 13:33:05 RECIEVED Country France
+2025/03/02 13:33:08 RECIEVED verify user action [{France New York clues_1} {France New York clues_2}]
+2025/03/02 13:33:08 verify false France#New York []
+2025/03/02 13:33:08 RECIEVED user action { -1 false}
+2025/03/02 13:33:08 error in updating user details redis: nil
+2025/03/02 13:34:38 RECIEVED Country France
+2025/03/02 13:34:38 RECIEVED Country France
+2025/03/02 13:34:40 RECIEVED verify user action [{France New York clues_1} {France New York clues_2}]
+2025/03/02 13:34:40 verify false France#New York []
+2025/03/02 13:34:56 RECIEVED userId abc
+2025/03/02 13:34:57 RECIEVED Country France
+2025/03/02 13:34:57 RECIEVED Country France
+2025/03/02 13:35:00 RECIEVED verify user action [{France Tokyo clues_1} {France Tokyo clues_2}]
+2025/03/02 13:35:00 verify false France#Tokyo []
+2025/03/02 13:35:00 RECIEVED user action {abc -1 false}
+2025/03/02 13:35:05 RECIEVED Country USA
+2025/03/02 13:35:05 RECIEVED Country USA
+2025/03/02 13:35:08 RECIEVED verify user action [{USA Paris clues_5} {USA Paris clues_6}]
+2025/03/02 13:35:08 verify false USA#Paris []
+2025/03/02 13:35:08 RECIEVED user action {abc -1 false}
+2025/03/02 13:35:19 RECIEVED Country USA
+2025/03/02 13:35:19 RECIEVED Country USA
+2025/03/02 13:35:21 RECIEVED verify user action [{USA New York clues_5} {USA New York clues_6}]
+2025/03/02 13:35:21 RECIEVED user action {abc 1 true}
+2025/03/02 13:41:56 RECIEVED userId abc
+2025/03/02 13:44:04 RECIEVED Country Japan
+2025/03/02 13:44:04 RECIEVED Country Japan
+2025/03/02 13:44:06 RECIEVED verify user action [{Japan Paris clues_3} {Japan Paris clues_4}]
+2025/03/02 13:44:06 verify false Japan#Paris []
+2025/03/02 13:46:32 RECIEVED Country Japan
+2025/03/02 13:46:32 RECIEVED Country Japan
+2025/03/02 13:48:11 RECIEVED userId abc
+2025/03/02 14:07:33 RECIEVED Country Japan
+2025/03/02 14:07:33 RECIEVED Country Japan
+2025/03/02 14:08:49 RECIEVED userId abc
+2025/03/02 14:08:51 RECIEVED Country Japan
+2025/03/02 14:08:51 RECIEVED Country Japan
+2025/03/02 14:08:55 RECIEVED verify user action [{Japan New York clues_3} {Japan New York clues_4}]
+2025/03/02 14:08:55 verify false Japan#New York []
+2025/03/02 14:08:55 RECIEVED user action {abc -1 false}
+2025/03/02 14:09:57 RECIEVED userId abc
+2025/03/02 14:10:06 RECIEVED userId abc
+2025/03/02 14:18:23 RECIEVED userId abc
+2025/03/02 14:18:23 RECIEVED userId abc
+2025/03/02 14:18:23 RECIEVED userId abc
+2025/03/02 14:18:23 RECIEVED userId abc
+2025/03/02 14:18:28 RECIEVED userId abc
+2025/03/02 14:18:28 RECIEVED userId abc
+2025/03/02 14:18:32 RECIEVED userId abc
+2025/03/02 14:18:32 RECIEVED userId abc
+2025/03/02 14:18:34 RECIEVED userId abc
+2025/03/02 14:18:34 RECIEVED userId abc
+2025/03/02 14:18:36 RECIEVED userId abc
+2025/03/02 14:18:36 RECIEVED userId abc
+2025/03/02 14:18:43 RECIEVED userId abc
+2025/03/02 14:18:43 RECIEVED userId abc
+2025/03/02 14:18:46 RECIEVED userId abc
+2025/03/02 14:18:46 RECIEVED userId abc
+2025/03/02 14:18:47 RECIEVED userId abc
+2025/03/02 14:18:47 RECIEVED userId abc
+2025/03/02 14:25:26 RECIEVED userId abc
+2025/03/02 14:25:26 RECIEVED userId abc
+2025/03/02 14:30:34 RECIEVED userId abc
+2025/03/02 14:30:34 RECIEVED userId abc
+2025/03/02 14:32:23 RECIEVED userId abc
+2025/03/02 14:32:23 RECIEVED userId abc
+2025/03/02 14:36:24 RECIEVED userId abc
+2025/03/02 14:36:24 RECIEVED userId abc
