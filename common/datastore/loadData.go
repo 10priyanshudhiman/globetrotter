@@ -201,3 +201,35 @@ func LoadCityDataToRedis(redisClient *redis.Client) error {
 
 	return nil
 }
+
+func DeleteMatchingKeys(redisClient *redis.Client, pattern string) error {
+	ctx := context.Background()
+	var cursor uint64
+	var keys []string
+	var err error
+
+	// Use SCAN to find keys matching the pattern
+	for {
+		keys, cursor, err = redisClient.Scan(ctx, cursor, pattern, 100).Result()
+		if err != nil {
+			log.Println("Error scanning keys:", err)
+			return err
+		}
+
+		if len(keys) > 0 {
+			if err := redisClient.Del(ctx, keys...).Err(); err != nil {
+				log.Println("Failed to delete keys:", keys, err)
+				return err
+			} else {
+				log.Println("Deleted keys:", keys)
+			}
+		}
+
+		// Stop when cursor is 0 (end of iteration)
+		if cursor == 0 {
+			break
+		}
+	}
+
+	return nil
+}

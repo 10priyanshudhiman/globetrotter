@@ -53,8 +53,9 @@ func (gr *gameRepository) GetInitialGameDetails(ctx context.Context, country str
 	}
 
 	clueArr := strings.Split(clues, "#")
+	selectedClues := utility.PickRandomCities(clueArr, 2)
 
-	for _, clueId := range clueArr {
+	for _, clueId := range selectedClues {
 		if clue, ok := cluesMap[clueId]; !ok {
 			log.Println("mapping does not exists for clueId", clueId)
 		} else {

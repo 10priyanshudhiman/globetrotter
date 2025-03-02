@@ -28,12 +28,13 @@ const Header = ({ user }) => {
   useEffect(() => {
     if (isModalVisible) {
      
-    generateInviteImage();
+    generateInviteImage(totalScore,correctAnswers,incorrectAnswers);
      
     }
   }, [isModalVisible]);
 
-  const generateInviteImage = () => {
+  const generateInviteImage = (totalScore,correctAnswers,incorrectAnswers) => {
+    
     const canvas = canvasRef.current;
     const ctx = canvas.getContext("2d");
 
@@ -42,12 +43,10 @@ const Header = ({ user }) => {
     canvas.height = 300;
 
     // Constant scores
-    const totalScore = 850;
-    const correctAnswers = 40;
-    const incorrectAnswers = 10;
+    
 
     // Generate random colors for gradient
-    const getRandomColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+    const getRandomColor = () => `#${Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0')}`;
     const color1 = getRandomColor();
     const color2 = getRandomColor();
 

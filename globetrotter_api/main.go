@@ -8,7 +8,6 @@ import (
 	"globetrotter_api/router"
 	"log"
 	"net/http"
-	"os"
 	"time"
 
 	"github.com/labstack/echo/v4"
@@ -40,6 +39,10 @@ func main() {
 	redisClient := datastore.RedisClient()
 	defer redisClient.Close()
 
+	err = datastore.DeleteMatchingKeys(redisClient, config.C.Server.Env+"*")
+	if err != nil {
+		log.Println(err)
+	}
 	err = datastore.LoadCityDataToRedis(redisClient)
 	if err != nil {
 		log.Println(err)
@@ -60,7 +63,7 @@ func main() {
 	e = router.NewRouter(e, r.NewAppController())
 
 	log.Println("API Server listening on port", config.C.Server.ApiPort)
-	if err := e.Start(fmt.Sprintf("0.0.0.0:" + os.Getenv("PORT"))); err != nil {
+	if err := e.Start(config.C.Server.ApiPort); err != nil {
 		log.Fatalln(err)
 	}
 

@@ -398,3 +398,197 @@
 2025/03/02 15:58:32 Connected to redis
 2025/03/02 15:58:37 failed to set clues_4 for key live_clues: dial tcp 35.213.168.149:6379: i/o timeout
 2025/03/02 15:58:37 API Server listening on port :5000
+2025/03/02 16:52:09 Connected to redis
+2025/03/02 16:52:14 Error scanning keys: dial tcp 35.213.168.149:6379: i/o timeout
+2025/03/02 16:52:14 Error in del keys dial tcp 35.213.168.149:6379: i/o timeout
+2025/03/02 16:52:14 API Server listening on port :5000
+2025/03/02 16:53:26 Connected to redis
+2025/03/02 16:53:31 Error scanning keys: dial tcp: lookup redis-production-8b2c.up.railway.app: i/o timeout
+2025/03/02 16:53:31 dial tcp: lookup redis-production-8b2c.up.railway.app: i/o timeout
+2025/03/02 16:53:36 failed to set clues_1 for key live_clues: dial tcp: lookup redis-production-8b2c.up.railway.app: i/o timeout
+2025/03/02 16:53:36 API Server listening on port :5000
+2025/03/02 16:53:54 Connected to redis
+2025/03/02 16:53:54 Deleted keys: [live_country_city_trivia live_funFacts live_country_city_fun_facts live_trivia live_users live_country_fun_facts live_country_clues live_clues live_country_city_clues live_country_trivia live_country_cities]
+2025/03/02 16:53:54 API Server listening on port :5000
+2025/03/02 16:54:14 Connected to redis
+2025/03/02 16:54:14 Deleted keys: [live_country_city_trivia live_funFacts live_country_city_fun_facts live_trivia live_country_fun_facts live_country_clues live_country_city_clues live_clues live_country_trivia live_country_cities]
+2025/03/02 16:54:14 API Server listening on port :5000
+2025/03/02 16:54:28 Connected to redis
+2025/03/02 16:54:28 Deleted keys: [live_country_city_trivia live_funFacts live_country_city_fun_facts live_trivia live_country_fun_facts live_country_clues live_country_city_clues live_clues live_country_trivia live_country_cities]
+2025/03/02 16:54:28 API Server listening on port :5000
+2025/03/02 16:55:13 Connected to redis
+2025/03/02 16:55:13 API Server listening on port :5000
+2025/03/02 16:55:55 RECIEVED userId pri
+2025/03/02 16:55:55 RECIEVED userId pri
+2025/03/02 16:56:17 RECIEVED userId priyanshu
+2025/03/02 16:56:21 RECIEVED Country Argentina
+2025/03/02 16:56:21 RECIEVED Country Argentina
+2025/03/02 16:56:41 RECIEVED verify user action [{Argentina Ho Chi Minh City clues_1} {Argentina Ho Chi Minh City clues_10} {Argentina Ho Chi Minh City clues_100} {Argentina Ho Chi Minh City clues_101} {Argentina Ho Chi Minh City clues_102} {Argentina Ho Chi Minh City clues_103} {Argentina Ho Chi Minh City clues_104} {Argentina Ho Chi Minh City clues_105} {Argentina Ho Chi Minh City clues_106} {Argentina Ho Chi Minh City clues_107} {Argentina Ho Chi Minh City clues_108} {Argentina Ho Chi Minh City clues_109} {Argentina Ho Chi Minh City clues_11} {Argentina Ho Chi Minh City clues_110} {Argentina Ho Chi Minh City clues_111} {Argentina Ho Chi Minh City clues_112} {Argentina Ho Chi Minh City clues_113} {Argentina Ho Chi Minh City clues_114} {Argentina Ho Chi Minh City clues_115} {Argentina Ho Chi Minh City clues_116} {Argentina Ho Chi Minh City clues_117} {Argentina Ho Chi Minh City clues_118} {Argentina Ho Chi Minh City clues_119} {Argentina Ho Chi Minh City clues_12} {Argentina Ho Chi Minh City clues_120} {Argentina Ho Chi Minh City clues_121} {Argentina Ho Chi Minh City clues_122} {Argentina Ho Chi Minh City clues_123} {Argentina Ho Chi Minh City clues_124} {Argentina Ho Chi Minh City clues_125} {Argentina Ho Chi Minh City clues_126} {Argentina Ho Chi Minh City clues_127} {Argentina Ho Chi Minh City clues_128} {Argentina Ho Chi Minh City clues_129} {Argentina Ho Chi Minh City clues_13} {Argentina Ho Chi Minh City clues_130} {Argentina Ho Chi Minh City clues_131} {Argentina Ho Chi Minh City clues_132} {Argentina Ho Chi Minh City clues_133} {Argentina Ho Chi Minh City clues_134} {Argentina Ho Chi Minh City clues_135} {Argentina Ho Chi Minh City clues_136} {Argentina Ho Chi Minh City clues_137} {Argentina Ho Chi Minh City clues_138} {Argentina Ho Chi Minh City clues_139} {Argentina Ho Chi Minh City clues_14} {Argentina Ho Chi Minh City clues_140} {Argentina Ho Chi Minh City clues_141} {Argentina Ho Chi Minh City clues_142} {Argentina Ho Chi Minh City clues_143} {Argentina Ho Chi Minh City clues_144} {Argentina Ho Chi Minh City clues_145} {Argentina Ho Chi Minh City clues_146} {Argentina Ho Chi Minh City clues_147} {Argentina Ho Chi Minh City clues_148} {Argentina Ho Chi Minh City clues_149} {Argentina Ho Chi Minh City clues_15} {Argentina Ho Chi Minh City clues_150} {Argentina Ho Chi Minh City clues_151} {Argentina Ho Chi Minh City clues_152} {Argentina Ho Chi Minh City clues_153} {Argentina Ho Chi Minh City clues_154} {Argentina Ho Chi Minh City clues_155} {Argentina Ho Chi Minh City clues_156} {Argentina Ho Chi Minh City clues_157} {Argentina Ho Chi Minh City clues_158} {Argentina Ho Chi Minh City clues_159} {Argentina Ho Chi Minh City clues_16} {Argentina Ho Chi Minh City clues_160} {Argentina Ho Chi Minh City clues_161} {Argentina Ho Chi Minh City clues_162} {Argentina Ho Chi Minh City clues_163} {Argentina Ho Chi Minh City clues_164} {Argentina Ho Chi Minh City clues_165} {Argentina Ho Chi Minh City clues_166} {Argentina Ho Chi Minh City clues_167} {Argentina Ho Chi Minh City clues_168} {Argentina Ho Chi Minh City clues_169} {Argentina Ho Chi Minh City clues_17} {Argentina Ho Chi Minh City clues_170} {Argentina Ho Chi Minh City clues_171} {Argentina Ho Chi Minh City clues_172} {Argentina Ho Chi Minh City clues_173} {Argentina Ho Chi Minh City clues_174} {Argentina Ho Chi Minh City clues_175} {Argentina Ho Chi Minh City clues_176} {Argentina Ho Chi Minh City clues_177} {Argentina Ho Chi Minh City clues_178} {Argentina Ho Chi Minh City clues_179} {Argentina Ho Chi Minh City clues_18} {Argentina Ho Chi Minh City clues_180} {Argentina Ho Chi Minh City clues_181} {Argentina Ho Chi Minh City clues_182} {Argentina Ho Chi Minh City clues_183} {Argentina Ho Chi Minh City clues_184} {Argentina Ho Chi Minh City clues_185} {Argentina Ho Chi Minh City clues_186} {Argentina Ho Chi Minh City clues_187} {Argentina Ho Chi Minh City clues_188} {Argentina Ho Chi Minh City clues_189} {Argentina Ho Chi Minh City clues_19} {Argentina Ho Chi Minh City clues_190} {Argentina Ho Chi Minh City clues_191} {Argentina Ho Chi Minh City clues_192} {Argentina Ho Chi Minh City clues_193} {Argentina Ho Chi Minh City clues_194} {Argentina Ho Chi Minh City clues_195} {Argentina Ho Chi Minh City clues_196} {Argentina Ho Chi Minh City clues_197} {Argentina Ho Chi Minh City clues_198} {Argentina Ho Chi Minh City clues_199} {Argentina Ho Chi Minh City clues_2} {Argentina Ho Chi Minh City clues_20} {Argentina Ho Chi Minh City clues_200} {Argentina Ho Chi Minh City clues_201} {Argentina Ho Chi Minh City clues_202} {Argentina Ho Chi Minh City clues_203} {Argentina Ho Chi Minh City clues_204} {Argentina Ho Chi Minh City clues_205} {Argentina Ho Chi Minh City clues_206} {Argentina Ho Chi Minh City clues_207} {Argentina Ho Chi Minh City clues_208} {Argentina Ho Chi Minh City clues_209} {Argentina Ho Chi Minh City clues_21} {Argentina Ho Chi Minh City clues_210} {Argentina Ho Chi Minh City clues_211} {Argentina Ho Chi Minh City clues_212} {Argentina Ho Chi Minh City clues_213} {Argentina Ho Chi Minh City clues_214} {Argentina Ho Chi Minh City clues_215} {Argentina Ho Chi Minh City clues_216} {Argentina Ho Chi Minh City clues_217} {Argentina Ho Chi Minh City clues_218} {Argentina Ho Chi Minh City clues_219} {Argentina Ho Chi Minh City clues_22} {Argentina Ho Chi Minh City clues_220} {Argentina Ho Chi Minh City clues_221} {Argentina Ho Chi Minh City clues_222} {Argentina Ho Chi Minh City clues_223} {Argentina Ho Chi Minh City clues_224} {Argentina Ho Chi Minh City clues_225} {Argentina Ho Chi Minh City clues_226} {Argentina Ho Chi Minh City clues_227} {Argentina Ho Chi Minh City clues_228} {Argentina Ho Chi Minh City clues_229} {Argentina Ho Chi Minh City clues_23} {Argentina Ho Chi Minh City clues_230} {Argentina Ho Chi Minh City clues_231} {Argentina Ho Chi Minh City clues_232} {Argentina Ho Chi Minh City clues_233} {Argentina Ho Chi Minh City clues_234} {Argentina Ho Chi Minh City clues_235} {Argentina Ho Chi Minh City clues_236} {Argentina Ho Chi Minh City clues_237} {Argentina Ho Chi Minh City clues_238} {Argentina Ho Chi Minh City clues_239} {Argentina Ho Chi Minh City clues_24} {Argentina Ho Chi Minh City clues_240} {Argentina Ho Chi Minh City clues_241} {Argentina Ho Chi Minh City clues_242} {Argentina Ho Chi Minh City clues_243} {Argentina Ho Chi Minh City clues_244} {Argentina Ho Chi Minh City clues_245} {Argentina Ho Chi Minh City clues_246} {Argentina Ho Chi Minh City clues_247} {Argentina Ho Chi Minh City clues_248} {Argentina Ho Chi Minh City clues_249} {Argentina Ho Chi Minh City clues_25} {Argentina Ho Chi Minh City clues_250} {Argentina Ho Chi Minh City clues_251} {Argentina Ho Chi Minh City clues_252} {Argentina Ho Chi Minh City clues_253} {Argentina Ho Chi Minh City clues_254} {Argentina Ho Chi Minh City clues_255} {Argentina Ho Chi Minh City clues_256} {Argentina Ho Chi Minh City clues_257} {Argentina Ho Chi Minh City clues_258} {Argentina Ho Chi Minh City clues_259} {Argentina Ho Chi Minh City clues_26} {Argentina Ho Chi Minh City clues_260} {Argentina Ho Chi Minh City clues_261} {Argentina Ho Chi Minh City clues_262} {Argentina Ho Chi Minh City clues_263} {Argentina Ho Chi Minh City clues_264} {Argentina Ho Chi Minh City clues_265} {Argentina Ho Chi Minh City clues_266} {Argentina Ho Chi Minh City clues_267} {Argentina Ho Chi Minh City clues_268} {Argentina Ho Chi Minh City clues_269} {Argentina Ho Chi Minh City clues_27} {Argentina Ho Chi Minh City clues_270} {Argentina Ho Chi Minh City clues_271} {Argentina Ho Chi Minh City clues_272} {Argentina Ho Chi Minh City clues_273} {Argentina Ho Chi Minh City clues_274} {Argentina Ho Chi Minh City clues_275} {Argentina Ho Chi Minh City clues_276} {Argentina Ho Chi Minh City clues_277} {Argentina Ho Chi Minh City clues_278} {Argentina Ho Chi Minh City clues_279} {Argentina Ho Chi Minh City clues_28} {Argentina Ho Chi Minh City clues_280} {Argentina Ho Chi Minh City clues_281} {Argentina Ho Chi Minh City clues_282} {Argentina Ho Chi Minh City clues_283} {Argentina Ho Chi Minh City clues_284} {Argentina Ho Chi Minh City clues_285} {Argentina Ho Chi Minh City clues_286} {Argentina Ho Chi Minh City clues_287} {Argentina Ho Chi Minh City clues_288} {Argentina Ho Chi Minh City clues_289} {Argentina Ho Chi Minh City clues_29} {Argentina Ho Chi Minh City clues_290} {Argentina Ho Chi Minh City clues_291} {Argentina Ho Chi Minh City clues_292} {Argentina Ho Chi Minh City clues_293} {Argentina Ho Chi Minh City clues_294} {Argentina Ho Chi Minh City clues_295} {Argentina Ho Chi Minh City clues_296} {Argentina Ho Chi Minh City clues_297} {Argentina Ho Chi Minh City clues_298} {Argentina Ho Chi Minh City clues_299} {Argentina Ho Chi Minh City clues_3} {Argentina Ho Chi Minh City clues_30} {Argentina Ho Chi Minh City clues_300} {Argentina Ho Chi Minh City clues_31} {Argentina Ho Chi Minh City clues_32} {Argentina Ho Chi Minh City clues_33} {Argentina Ho Chi Minh City clues_34} {Argentina Ho Chi Minh City clues_35} {Argentina Ho Chi Minh City clues_36} {Argentina Ho Chi Minh City clues_37} {Argentina Ho Chi Minh City clues_38} {Argentina Ho Chi Minh City clues_39} {Argentina Ho Chi Minh City clues_4} {Argentina Ho Chi Minh City clues_40} {Argentina Ho Chi Minh City clues_41} {Argentina Ho Chi Minh City clues_42} {Argentina Ho Chi Minh City clues_43} {Argentina Ho Chi Minh City clues_44} {Argentina Ho Chi Minh City clues_45} {Argentina Ho Chi Minh City clues_46} {Argentina Ho Chi Minh City clues_47} {Argentina Ho Chi Minh City clues_48} {Argentina Ho Chi Minh City clues_49} {Argentina Ho Chi Minh City clues_5} {Argentina Ho Chi Minh City clues_50} {Argentina Ho Chi Minh City clues_51} {Argentina Ho Chi Minh City clues_52} {Argentina Ho Chi Minh City clues_53} {Argentina Ho Chi Minh City clues_54} {Argentina Ho Chi Minh City clues_55} {Argentina Ho Chi Minh City clues_56} {Argentina Ho Chi Minh City clues_57} {Argentina Ho Chi Minh City clues_58} {Argentina Ho Chi Minh City clues_59} {Argentina Ho Chi Minh City clues_6} {Argentina Ho Chi Minh City clues_60} {Argentina Ho Chi Minh City clues_61} {Argentina Ho Chi Minh City clues_62} {Argentina Ho Chi Minh City clues_63} {Argentina Ho Chi Minh City clues_64} {Argentina Ho Chi Minh City clues_65} {Argentina Ho Chi Minh City clues_66} {Argentina Ho Chi Minh City clues_67} {Argentina Ho Chi Minh City clues_68} {Argentina Ho Chi Minh City clues_69} {Argentina Ho Chi Minh City clues_7} {Argentina Ho Chi Minh City clues_70} {Argentina Ho Chi Minh City clues_71} {Argentina Ho Chi Minh City clues_72} {Argentina Ho Chi Minh City clues_73} {Argentina Ho Chi Minh City clues_74} {Argentina Ho Chi Minh City clues_75} {Argentina Ho Chi Minh City clues_76} {Argentina Ho Chi Minh City clues_77} {Argentina Ho Chi Minh City clues_78} {Argentina Ho Chi Minh City clues_79} {Argentina Ho Chi Minh City clues_8} {Argentina Ho Chi Minh City clues_80} {Argentina Ho Chi Minh City clues_81} {Argentina Ho Chi Minh City clues_82} {Argentina Ho Chi Minh City clues_83} {Argentina Ho Chi Minh City clues_84} {Argentina Ho Chi Minh City clues_85} {Argentina Ho Chi Minh City clues_86} {Argentina Ho Chi Minh City clues_87} {Argentina Ho Chi Minh City clues_88} {Argentina Ho Chi Minh City clues_89} {Argentina Ho Chi Minh City clues_9} {Argentina Ho Chi Minh City clues_90} {Argentina Ho Chi Minh City clues_91} {Argentina Ho Chi Minh City clues_92} {Argentina Ho Chi Minh City clues_93} {Argentina Ho Chi Minh City clues_94} {Argentina Ho Chi Minh City clues_95} {Argentina Ho Chi Minh City clues_96} {Argentina Ho Chi Minh City clues_97} {Argentina Ho Chi Minh City clues_98} {Argentina Ho Chi Minh City clues_99} {Argentina Gothenburg clues_1} {Argentina Gothenburg clues_10} {Argentina Gothenburg clues_100} {Argentina Gothenburg clues_101} {Argentina Gothenburg clues_102} {Argentina Gothenburg clues_103} {Argentina Gothenburg clues_104} {Argentina Gothenburg clues_105} {Argentina Gothenburg clues_106} {Argentina Gothenburg clues_107} {Argentina Gothenburg clues_108} {Argentina Gothenburg clues_109} {Argentina Gothenburg clues_11} {Argentina Gothenburg clues_110} {Argentina Gothenburg clues_111} {Argentina Gothenburg clues_112} {Argentina Gothenburg clues_113} {Argentina Gothenburg clues_114} {Argentina Gothenburg clues_115} {Argentina Gothenburg clues_116} {Argentina Gothenburg clues_117} {Argentina Gothenburg clues_118} {Argentina Gothenburg clues_119} {Argentina Gothenburg clues_12} {Argentina Gothenburg clues_120} {Argentina Gothenburg clues_121} {Argentina Gothenburg clues_122} {Argentina Gothenburg clues_123} {Argentina Gothenburg clues_124} {Argentina Gothenburg clues_125} {Argentina Gothenburg clues_126} {Argentina Gothenburg clues_127} {Argentina Gothenburg clues_128} {Argentina Gothenburg clues_129} {Argentina Gothenburg clues_13} {Argentina Gothenburg clues_130} {Argentina Gothenburg clues_131} {Argentina Gothenburg clues_132} {Argentina Gothenburg clues_133} {Argentina Gothenburg clues_134} {Argentina Gothenburg clues_135} {Argentina Gothenburg clues_136} {Argentina Gothenburg clues_137} {Argentina Gothenburg clues_138} {Argentina Gothenburg clues_139} {Argentina Gothenburg clues_14} {Argentina Gothenburg clues_140} {Argentina Gothenburg clues_141} {Argentina Gothenburg clues_142} {Argentina Gothenburg clues_143} {Argentina Gothenburg clues_144} {Argentina Gothenburg clues_145} {Argentina Gothenburg clues_146} {Argentina Gothenburg clues_147} {Argentina Gothenburg clues_148} {Argentina Gothenburg clues_149} {Argentina Gothenburg clues_15} {Argentina Gothenburg clues_150} {Argentina Gothenburg clues_151} {Argentina Gothenburg clues_152} {Argentina Gothenburg clues_153} {Argentina Gothenburg clues_154} {Argentina Gothenburg clues_155} {Argentina Gothenburg clues_156} {Argentina Gothenburg clues_157} {Argentina Gothenburg clues_158} {Argentina Gothenburg clues_159} {Argentina Gothenburg clues_16} {Argentina Gothenburg clues_160} {Argentina Gothenburg clues_161} {Argentina Gothenburg clues_162} {Argentina Gothenburg clues_163} {Argentina Gothenburg clues_164} {Argentina Gothenburg clues_165} {Argentina Gothenburg clues_166} {Argentina Gothenburg clues_167} {Argentina Gothenburg clues_168} {Argentina Gothenburg clues_169} {Argentina Gothenburg clues_17} {Argentina Gothenburg clues_170} {Argentina Gothenburg clues_171} {Argentina Gothenburg clues_172} {Argentina Gothenburg clues_173} {Argentina Gothenburg clues_174} {Argentina Gothenburg clues_175} {Argentina Gothenburg clues_176} {Argentina Gothenburg clues_177} {Argentina Gothenburg clues_178} {Argentina Gothenburg clues_179} {Argentina Gothenburg clues_18} {Argentina Gothenburg clues_180} {Argentina Gothenburg clues_181} {Argentina Gothenburg clues_182} {Argentina Gothenburg clues_183} {Argentina Gothenburg clues_184} {Argentina Gothenburg clues_185} {Argentina Gothenburg clues_186} {Argentina Gothenburg clues_187} {Argentina Gothenburg clues_188} {Argentina Gothenburg clues_189} {Argentina Gothenburg clues_19} {Argentina Gothenburg clues_190} {Argentina Gothenburg clues_191} {Argentina Gothenburg clues_192} {Argentina Gothenburg clues_193} {Argentina Gothenburg clues_194} {Argentina Gothenburg clues_195} {Argentina Gothenburg clues_196} {Argentina Gothenburg clues_197} {Argentina Gothenburg clues_198} {Argentina Gothenburg clues_199} {Argentina Gothenburg clues_2} {Argentina Gothenburg clues_20} {Argentina Gothenburg clues_200} {Argentina Gothenburg clues_201} {Argentina Gothenburg clues_202} {Argentina Gothenburg clues_203} {Argentina Gothenburg clues_204} {Argentina Gothenburg clues_205} {Argentina Gothenburg clues_206} {Argentina Gothenburg clues_207} {Argentina Gothenburg clues_208} {Argentina Gothenburg clues_209} {Argentina Gothenburg clues_21} {Argentina Gothenburg clues_210} {Argentina Gothenburg clues_211} {Argentina Gothenburg clues_212} {Argentina Gothenburg clues_213} {Argentina Gothenburg clues_214} {Argentina Gothenburg clues_215} {Argentina Gothenburg clues_216} {Argentina Gothenburg clues_217} {Argentina Gothenburg clues_218} {Argentina Gothenburg clues_219} {Argentina Gothenburg clues_22} {Argentina Gothenburg clues_220} {Argentina Gothenburg clues_221} {Argentina Gothenburg clues_222} {Argentina Gothenburg clues_223} {Argentina Gothenburg clues_224} {Argentina Gothenburg clues_225} {Argentina Gothenburg clues_226} {Argentina Gothenburg clues_227} {Argentina Gothenburg clues_228} {Argentina Gothenburg clues_229} {Argentina Gothenburg clues_23} {Argentina Gothenburg clues_230} {Argentina Gothenburg clues_231} {Argentina Gothenburg clues_232} {Argentina Gothenburg clues_233} {Argentina Gothenburg clues_234} {Argentina Gothenburg clues_235} {Argentina Gothenburg clues_236} {Argentina Gothenburg clues_237} {Argentina Gothenburg clues_238} {Argentina Gothenburg clues_239} {Argentina Gothenburg clues_24} {Argentina Gothenburg clues_240} {Argentina Gothenburg clues_241} {Argentina Gothenburg clues_242} {Argentina Gothenburg clues_243} {Argentina Gothenburg clues_244} {Argentina Gothenburg clues_245} {Argentina Gothenburg clues_246} {Argentina Gothenburg clues_247} {Argentina Gothenburg clues_248} {Argentina Gothenburg clues_249} {Argentina Gothenburg clues_25} {Argentina Gothenburg clues_250} {Argentina Gothenburg clues_251} {Argentina Gothenburg clues_252} {Argentina Gothenburg clues_253} {Argentina Gothenburg clues_254} {Argentina Gothenburg clues_255} {Argentina Gothenburg clues_256} {Argentina Gothenburg clues_257} {Argentina Gothenburg clues_258} {Argentina Gothenburg clues_259} {Argentina Gothenburg clues_26} {Argentina Gothenburg clues_260} {Argentina Gothenburg clues_261} {Argentina Gothenburg clues_262} {Argentina Gothenburg clues_263} {Argentina Gothenburg clues_264} {Argentina Gothenburg clues_265} {Argentina Gothenburg clues_266} {Argentina Gothenburg clues_267} {Argentina Gothenburg clues_268} {Argentina Gothenburg clues_269} {Argentina Gothenburg clues_27} {Argentina Gothenburg clues_270} {Argentina Gothenburg clues_271} {Argentina Gothenburg clues_272} {Argentina Gothenburg clues_273} {Argentina Gothenburg clues_274} {Argentina Gothenburg clues_275} {Argentina Gothenburg clues_276} {Argentina Gothenburg clues_277} {Argentina Gothenburg clues_278} {Argentina Gothenburg clues_279} {Argentina Gothenburg clues_28} {Argentina Gothenburg clues_280} {Argentina Gothenburg clues_281} {Argentina Gothenburg clues_282} {Argentina Gothenburg clues_283} {Argentina Gothenburg clues_284} {Argentina Gothenburg clues_285} {Argentina Gothenburg clues_286} {Argentina Gothenburg clues_287} {Argentina Gothenburg clues_288} {Argentina Gothenburg clues_289} {Argentina Gothenburg clues_29} {Argentina Gothenburg clues_290} {Argentina Gothenburg clues_291} {Argentina Gothenburg clues_292} {Argentina Gothenburg clues_293} {Argentina Gothenburg clues_294} {Argentina Gothenburg clues_295} {Argentina Gothenburg clues_296} {Argentina Gothenburg clues_297} {Argentina Gothenburg clues_298} {Argentina Gothenburg clues_299} {Argentina Gothenburg clues_3} {Argentina Gothenburg clues_30} {Argentina Gothenburg clues_300} {Argentina Gothenburg clues_31} {Argentina Gothenburg clues_32} {Argentina Gothenburg clues_33} {Argentina Gothenburg clues_34} {Argentina Gothenburg clues_35} {Argentina Gothenburg clues_36} {Argentina Gothenburg clues_37} {Argentina Gothenburg clues_38} {Argentina Gothenburg clues_39} {Argentina Gothenburg clues_4} {Argentina Gothenburg clues_40} {Argentina Gothenburg clues_41} {Argentina Gothenburg clues_42} {Argentina Gothenburg clues_43} {Argentina Gothenburg clues_44} {Argentina Gothenburg clues_45} {Argentina Gothenburg clues_46} {Argentina Gothenburg clues_47} {Argentina Gothenburg clues_48} {Argentina Gothenburg clues_49} {Argentina Gothenburg clues_5} {Argentina Gothenburg clues_50} {Argentina Gothenburg clues_51} {Argentina Gothenburg clues_52} {Argentina Gothenburg clues_53} {Argentina Gothenburg clues_54} {Argentina Gothenburg clues_55} {Argentina Gothenburg clues_56} {Argentina Gothenburg clues_57} {Argentina Gothenburg clues_58} {Argentina Gothenburg clues_59} {Argentina Gothenburg clues_6} {Argentina Gothenburg clues_60} {Argentina Gothenburg clues_61} {Argentina Gothenburg clues_62} {Argentina Gothenburg clues_63} {Argentina Gothenburg clues_64} {Argentina Gothenburg clues_65} {Argentina Gothenburg clues_66} {Argentina Gothenburg clues_67} {Argentina Gothenburg clues_68} {Argentina Gothenburg clues_69} {Argentina Gothenburg clues_7} {Argentina Gothenburg clues_70} {Argentina Gothenburg clues_71} {Argentina Gothenburg clues_72} {Argentina Gothenburg clues_73} {Argentina Gothenburg clues_74} {Argentina Gothenburg clues_75} {Argentina Gothenburg clues_76} {Argentina Gothenburg clues_77} {Argentina Gothenburg clues_78} {Argentina Gothenburg clues_79} {Argentina Gothenburg clues_8} {Argentina Gothenburg clues_80} {Argentina Gothenburg clues_81} {Argentina Gothenburg clues_82} {Argentina Gothenburg clues_83} {Argentina Gothenburg clues_84} {Argentina Gothenburg clues_85} {Argentina Gothenburg clues_86} {Argentina Gothenburg clues_87} {Argentina Gothenburg clues_88} {Argentina Gothenburg clues_89} {Argentina Gothenburg clues_9} {Argentina Gothenburg clues_90} {Argentina Gothenburg clues_91} {Argentina Gothenburg clues_92} {Argentina Gothenburg clues_93} {Argentina Gothenburg clues_94} {Argentina Gothenburg clues_95} {Argentina Gothenburg clues_96} {Argentina Gothenburg clues_97} {Argentina Gothenburg clues_98} {Argentina Gothenburg clues_99}]
+2025/03/02 16:56:41 verify false Argentina#Ho Chi Minh City []
+2025/03/02 16:56:41 RECIEVED user action {priyanshu -1 false}
+2025/03/02 16:56:45 RECIEVED Country India
+2025/03/02 16:56:45 RECIEVED Country India
+2025/03/02 16:59:29 RECIEVED userId priyanshu
+2025/03/02 16:59:31 RECIEVED Country Greece
+2025/03/02 16:59:31 RECIEVED Country Greece
+2025/03/02 17:02:33 Connected to redis
+2025/03/02 17:02:33 Deleted keys: [live_country_city_trivia live_funFacts live_country_city_fun_facts live_trivia live_users live_country_clues live_country_fun_facts live_country_city_clues live_clues live_country_trivia live_country_cities]
+2025/03/02 17:02:33 API Server listening on port :5000
+2025/03/02 17:02:44 RECIEVED userId priyanshu
+2025/03/02 17:02:45 RECIEVED Country Argentina
+2025/03/02 17:02:45 RECIEVED Country Argentina
+2025/03/02 17:02:56 RECIEVED verify user action [{Argentina Istanbul clues_132} {Argentina Istanbul clues_227}]
+2025/03/02 17:02:56 verify false Argentina#Istanbul []
+2025/03/02 17:02:56 RECIEVED user action {priyanshu -1 false}
+2025/03/02 17:03:03 RECIEVED Country Argentina
+2025/03/02 17:03:03 RECIEVED Country Argentina
+2025/03/02 17:03:53 RECIEVED verify user action [{Argentina London clues_105} {Argentina London clues_268}]
+2025/03/02 17:03:53 verify false Argentina#London []
+2025/03/02 17:03:53 RECIEVED user action {priyanshu -1 false}
+2025/03/02 17:03:57 RECIEVED Country Argentina
+2025/03/02 17:03:57 RECIEVED Country Argentina
+2025/03/02 17:04:02 RECIEVED verify user action [{Argentina Lyon clues_11} {Argentina Lyon clues_12}]
+2025/03/02 17:04:02 verify false Argentina#Lyon []
+2025/03/02 17:04:02 RECIEVED user action {priyanshu -1 false}
+2025/03/02 17:04:11 RECIEVED Country Argentina
+2025/03/02 17:04:11 RECIEVED Country Argentina
+2025/03/02 17:05:03 RECIEVED verify user action [{Argentina Buenos Aires clues_267} {Argentina Buenos Aires clues_295}]
+2025/03/02 17:05:04 RECIEVED user action {priyanshu 1 true}
+2025/03/02 17:05:10 RECIEVED Country Argentina
+2025/03/02 17:05:10 RECIEVED Country Argentina
+2025/03/02 17:05:19 RECIEVED verify user action [{Argentina Buenos Aires clues_184} {Argentina Buenos Aires clues_82} {Argentina Mendoza clues_184} {Argentina Mendoza clues_82}]
+2025/03/02 17:05:19 RECIEVED user action {priyanshu 1 true}
+2025/03/02 17:05:51 RECIEVED Country India
+2025/03/02 17:05:51 RECIEVED Country India
+2025/03/02 17:06:07 RECIEVED verify user action [{India Moscow clues_107} {India Moscow clues_250} {India Delhi clues_107} {India Delhi clues_250}]
+2025/03/02 17:06:07 verify false India#Moscow []
+2025/03/02 17:06:07 RECIEVED user action {priyanshu -1 false}
+2025/03/02 17:08:27 RECIEVED userId priyanshu
+2025/03/02 17:08:27 RECIEVED userId priyanshu
+2025/03/02 17:08:29 Connected to redis
+2025/03/02 17:08:29 Deleted keys: [live_country_city_trivia live_funFacts live_country_city_fun_facts live_trivia live_users live_country_clues live_country_fun_facts live_clues live_country_city_clues live_country_trivia live_country_cities]
+2025/03/02 17:08:29 API Server listening on port :5000
+2025/03/02 17:10:13 Connected to redis
+2025/03/02 17:10:13 Deleted keys: [live_country_city_trivia live_funFacts live_country_city_fun_facts live_trivia live_country_fun_facts live_country_clues live_country_city_clues live_clues live_country_trivia live_country_cities]
+2025/03/02 17:10:14 API Server listening on port :5000
+2025/03/02 17:11:28 RECIEVED userId Deepak
+2025/03/02 17:11:40 RECIEVED Country Canada
+2025/03/02 17:11:40 RECIEVED Country Canada
+2025/03/02 17:12:05 RECIEVED verify user action [{Canada Montreal clues_12} {Canada Montreal clues_223} {Canada Buenos Aires clues_12} {Canada Buenos Aires clues_223}]
+2025/03/02 17:12:05 verify false Canada#Buenos Aires []
+2025/03/02 17:12:05 RECIEVED user action {Deepak -1 false}
+2025/03/02 17:12:21 RECIEVED Country Argentina
+2025/03/02 17:12:21 RECIEVED Country Argentina
+2025/03/02 17:12:34 RECIEVED verify user action [{Argentina Mendoza clues_164} {Argentina Mendoza clues_81} {Argentina Buenos Aires clues_164} {Argentina Buenos Aires clues_81}]
+2025/03/02 17:12:34 RECIEVED user action {Deepak 1 true}
+2025/03/02 17:12:44 RECIEVED Country India
+2025/03/02 17:12:44 RECIEVED Country India
+2025/03/02 17:12:54 RECIEVED verify user action [{India Mumbai clues_116} {India Mumbai clues_225} {India São Paulo clues_116} {India São Paulo clues_225}]
+2025/03/02 17:12:54 verify false India#São Paulo []
+2025/03/02 17:12:54 RECIEVED user action {Deepak -1 false}
+2025/03/02 17:13:00 RECIEVED Country India
+2025/03/02 17:13:00 RECIEVED Country India
+2025/03/02 17:13:06 RECIEVED verify user action [{India Mumbai clues_142} {India Mumbai clues_63} {India Bangalore clues_142} {India Bangalore clues_63}]
+2025/03/02 17:13:06 RECIEVED user action {Deepak 1 true}
+2025/03/02 17:13:13 RECIEVED Country Japan
+2025/03/02 17:13:13 RECIEVED Country Japan
+2025/03/02 17:13:21 RECIEVED verify user action [{Japan Kyoto clues_202} {Japan Kyoto clues_242}]
+2025/03/02 17:13:21 RECIEVED user action {Deepak 1 true}
+2025/03/02 17:14:23 RECIEVED userId Deepak
+2025/03/02 17:14:52 RECIEVED userId Priyanshu
+2025/03/02 17:18:04 RECIEVED userId Priyanshu
+2025/03/02 17:18:15 RECIEVED Country Argentina
+2025/03/02 17:18:15 RECIEVED Country Argentina
+2025/03/02 17:18:26 RECIEVED verify user action [{Argentina Buenos Aires clues_106} {Argentina Buenos Aires clues_108} {Argentina Mendoza clues_106} {Argentina Mendoza clues_108}]
+2025/03/02 17:18:26 RECIEVED user action {Priyanshu 1 true}
+2025/03/02 17:18:33 RECIEVED Country Argentina
+2025/03/02 17:18:33 RECIEVED Country Argentina
+2025/03/02 17:18:37 RECIEVED verify user action [{Argentina Rio de Janeiro clues_258} {Argentina Rio de Janeiro clues_271} {Argentina Los Angeles clues_258} {Argentina Los Angeles clues_271}]
+2025/03/02 17:18:37 verify false Argentina#Rio de Janeiro []
+2025/03/02 17:18:37 RECIEVED user action {Priyanshu -1 false}
+2025/03/02 17:18:44 RECIEVED Country Germany
+2025/03/02 17:18:44 RECIEVED Country Germany
+2025/03/02 17:18:49 RECIEVED verify user action [{Germany Hamburg clues_268} {Germany Hamburg clues_59} {Germany Chiang Mai clues_268} {Germany Chiang Mai clues_59}]
+2025/03/02 17:18:49 verify false Germany#Chiang Mai []
+2025/03/02 17:18:49 RECIEVED user action {Priyanshu -1 false}
+2025/03/02 17:18:53 RECIEVED Country India
+2025/03/02 17:18:53 RECIEVED Country India
+2025/03/02 17:18:58 RECIEVED verify user action [{India Mumbai clues_153} {India Mumbai clues_78} {India Bangalore clues_153} {India Bangalore clues_78} {India Delhi clues_153} {India Delhi clues_78}]
+2025/03/02 17:18:58 RECIEVED user action {Priyanshu 1 true}
+2025/03/02 17:19:38 RECIEVED userId Deepak
+2025/03/02 17:24:13 Connected to redis
+2025/03/02 17:24:13 Deleted keys: [live_country_city_trivia live_funFacts live_country_city_fun_facts live_trivia live_users live_country_fun_facts live_country_clues live_country_city_clues live_clues live_country_trivia live_country_cities]
+2025/03/02 17:24:14 API Server listening on port :5000
+2025/03/02 17:25:00 RECIEVED userId Priyanshu
+2025/03/02 17:25:12 RECIEVED Country Argentina
+2025/03/02 17:25:12 RECIEVED Country Argentina
+2025/03/02 17:25:18 RECIEVED verify user action [{Argentina Jakarta clues_10} {Argentina Jakarta clues_166} {Argentina Lyon clues_10} {Argentina Lyon clues_166}]
+2025/03/02 17:25:18 verify false Argentina#Jakarta []
+2025/03/02 17:25:18 RECIEVED user action {Priyanshu -1 false}
+2025/03/02 17:25:24 RECIEVED Country Argentina
+2025/03/02 17:25:24 RECIEVED Country Argentina
+2025/03/02 17:25:28 RECIEVED verify user action [{Argentina Buenos Aires clues_117} {Argentina Buenos Aires clues_250} {Argentina Mendoza clues_117} {Argentina Mendoza clues_250}]
+2025/03/02 17:25:28 RECIEVED user action {Priyanshu 1 true}
+2025/03/02 17:25:35 RECIEVED Country Germany
+2025/03/02 17:25:35 RECIEVED Country Germany
+2025/03/02 17:25:40 RECIEVED verify user action [{Germany Hamburg clues_100} {Germany Hamburg clues_38}]
+2025/03/02 17:25:40 RECIEVED user action {Priyanshu 1 true}
+2025/03/02 17:28:31 RECIEVED userId Priyanshu
+2025/03/02 17:28:31 RECIEVED userId Priyanshu
+2025/03/02 17:28:31 RECIEVED user action {Priyanshu 1 true}
+2025/03/02 17:29:40 RECIEVED userId Priyanshu
+2025/03/02 17:29:40 RECIEVED user action {Priyanshu 1 true}
+2025/03/02 17:29:40 RECIEVED userId Priyanshu
+2025/03/02 17:29:55 RECIEVED Country China
+2025/03/02 17:29:55 RECIEVED Country China
+2025/03/02 17:29:57 RECIEVED verify user action [{China Hong Kong clues_123} {China Hong Kong clues_148}]
+2025/03/02 17:29:57 RECIEVED user action {Priyanshu 1 true}
+2025/03/02 17:35:18 Connected to redis
+2025/03/02 17:35:18 Deleted keys: [live_country_city_trivia live_funFacts live_country_city_fun_facts live_trivia live_users live_country_fun_facts live_country_clues live_country_city_clues live_clues live_country_trivia live_country_cities]
+2025/03/02 17:35:18 API Server listening on port :5000
+2025/03/02 17:35:49 RECIEVED userId Pri
+2025/03/02 17:35:55 RECIEVED Country Australia
+2025/03/02 17:35:55 RECIEVED Country Australia
+2025/03/02 17:36:03 RECIEVED verify user action [{Australia Sydney clues_15} {Australia Sydney clues_152}]
+2025/03/02 17:36:03 RECIEVED user action {Pri 1 true}
+2025/03/02 17:36:06 RECIEVED Country Bangladesh
+2025/03/02 17:36:06 RECIEVED Country Bangladesh
+2025/03/02 17:36:11 RECIEVED verify user action [{Bangladesh Dhaka clues_106} {Bangladesh Dhaka clues_35} {Bangladesh Yerevan clues_106} {Bangladesh Yerevan clues_35}]
+2025/03/02 17:36:11 verify false Bangladesh#Yerevan []
+2025/03/02 17:36:11 RECIEVED user action {Pri -1 false}
+2025/03/02 17:36:14 RECIEVED Country Turkey
+2025/03/02 17:36:14 RECIEVED Country Turkey
+2025/03/02 17:36:20 RECIEVED verify user action [{Turkey Istanbul clues_37} {Turkey Istanbul clues_39}]
+2025/03/02 17:36:20 RECIEVED user action {Pri 1 true}
+2025/03/02 17:37:47 RECIEVED userId test
+2025/03/02 17:38:04 RECIEVED Country Argentina
+2025/03/02 17:38:04 RECIEVED Country Argentina
+2025/03/02 17:38:18 RECIEVED verify user action [{Argentina Tokyo clues_103} {Argentina Tokyo clues_46} {Argentina Moscow clues_103} {Argentina Moscow clues_46}]
+2025/03/02 17:38:18 verify false Argentina#Tokyo []
+2025/03/02 17:38:18 RECIEVED user action {test -1 false}
+2025/03/02 17:38:31 RECIEVED Country Argentina
+2025/03/02 17:38:31 RECIEVED Country Argentina
+2025/03/02 17:38:37 RECIEVED verify user action [{Argentina Buenos Aires clues_10} {Argentina Buenos Aires clues_93}]
+2025/03/02 17:38:37 RECIEVED user action {test 1 true}
+2025/03/02 17:38:48 RECIEVED Country Bangladesh
+2025/03/02 17:38:48 RECIEVED Country Bangladesh
+2025/03/02 17:38:55 RECIEVED verify user action [{Bangladesh Dhaka clues_91} {Bangladesh Dhaka clues_92} {Bangladesh Toronto clues_91} {Bangladesh Toronto clues_92}]
+2025/03/02 17:38:55 verify false Bangladesh#Toronto []
+2025/03/02 17:38:55 RECIEVED user action {test -1 false}
+2025/03/02 17:39:01 RECIEVED Country Bangladesh
+2025/03/02 17:39:01 RECIEVED Country Bangladesh
+2025/03/02 17:39:03 RECIEVED verify user action [{Bangladesh Dhaka clues_192} {Bangladesh Dhaka clues_23}]
+2025/03/02 17:39:03 RECIEVED user action {test 1 true}
+2025/03/02 17:39:11 RECIEVED Country India
+2025/03/02 17:39:11 RECIEVED Country India
+2025/03/02 17:39:22 RECIEVED verify user action [{India Mumbai clues_4} {India Mumbai clues_85}]
+2025/03/02 17:39:22 RECIEVED user action {test 1 true}
+2025/03/02 17:39:29 RECIEVED Country India
+2025/03/02 17:39:29 RECIEVED Country India
+2025/03/02 17:39:39 RECIEVED verify user action [{India Karachi clues_153} {India Karachi clues_181} {India Mumbai clues_153} {India Mumbai clues_181} {India Beirut clues_153} {India Beirut clues_181}]
+2025/03/02 17:39:39 verify false India#Karachi []
+2025/03/02 17:39:39 RECIEVED user action {test -1 false}
+2025/03/02 17:39:46 RECIEVED Country UK
+2025/03/02 17:39:46 RECIEVED Country UK
+2025/03/02 17:39:57 RECIEVED verify user action [{UK London clues_37} {UK London clues_43}]
+2025/03/02 17:39:57 RECIEVED user action {test 1 true}
