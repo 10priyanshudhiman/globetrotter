@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import {useEffect} from "react";
 import { getRequestToAPI } from "../services/api";
 import URLS from "../urls";
 import store from "../store/store";
