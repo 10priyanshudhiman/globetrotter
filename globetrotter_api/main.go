@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"os"
 
 	"globetrotter_api/config"
 	"globetrotter_api/datastore"
@@ -64,7 +65,7 @@ func main() {
 	e = router.NewRouter(e, r.NewAppController())
 
 	log.Println("API Server listening on port", config.C.Server.ApiPort)
-	if err := e.Start(config.C.Server.ApiPort); err != nil {
+	if err := e.Start(fmt.Sprintf("%s%s", "0.0.0.0:", os.Getenv("PORT"))); err != nil {
 		log.Fatalln(err)
 	}
 
