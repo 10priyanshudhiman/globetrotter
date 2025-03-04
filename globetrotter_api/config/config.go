@@ -53,9 +53,9 @@ func LoadConfig() {
 	C.Log.RotationTime = getEnvInt("LOG_ROTATION_TIME", 24)
 	C.Log.MaxAge = getEnvInt("LOG_MAX_AGE", 0)
 
-	C.Redis.Host = getEnv("REDIS_HOST", "redis-production-8b2c.up.railway.app")
-	C.Redis.Port = getEnv("REDIS_PORT", "6379")
-	C.Redis.Password = getEnv("REDIS_PASSWORD", "")
+	C.Redis.Host = getEnv("REDIS_HOST", "tramway.proxy.rlwy.net")
+	C.Redis.Port = getEnv("REDIS_PORT", "22763")
+	C.Redis.Password = getEnv("REDIS_PASSWORD", "OynFGNfGtaSaoPFsebRuQOQXdqpaLQTE")
 	C.Redis.Db = getEnvInt("REDIS_DB", 0)
 
 	C.Redis.Key.CountryCity = getEnv("REDIS_KEY_COUNTRY_CITY", "_country_cities")
