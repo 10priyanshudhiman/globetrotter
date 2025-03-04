@@ -1,8 +1,8 @@
 package service
 
 import (
-	"common/model"
 	"context"
+	"globetrotter_api/model"
 	"globetrotter_api/repository"
 )
 

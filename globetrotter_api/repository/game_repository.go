@@ -1,11 +1,11 @@
 package repository
 
 import (
-	"common/config"
-	"common/model"
-	"common/utility"
 	"context"
 	"fmt"
+	"globetrotter_api/config"
+	"globetrotter_api/model"
+	"globetrotter_api/utility"
 	"log"
 	"strings"
 

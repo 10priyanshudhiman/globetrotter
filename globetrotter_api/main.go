@@ -1,9 +1,10 @@
 package main
 
 import (
-	"common/config"
-	"common/datastore"
 	"fmt"
+
+	"globetrotter_api/config"
+	"globetrotter_api/datastore"
 	"globetrotter_api/registry"
 	"globetrotter_api/router"
 	"log"

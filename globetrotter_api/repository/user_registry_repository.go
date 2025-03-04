@@ -1,11 +1,11 @@
 package repository
 
 import (
-	"common/config"
-	"common/model"
 	"context"
 	"encoding/json"
 	"errors"
+	"globetrotter_api/config"
+	"globetrotter_api/model"
 
 	"github.com/redis/go-redis/v9"
 )

@@ -1,11 +1,11 @@
 package datastore
 
 import (
-	"common/config"
-	"common/model"
 	"context"
 	"encoding/json"
 	"fmt"
+	"globetrotter_api/config"
+	"globetrotter_api/model"
 	"log"
 	"strings"
 

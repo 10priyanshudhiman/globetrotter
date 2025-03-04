@@ -1,11 +1,11 @@
 package controller
 
 import (
-	"common/model"
-	"common/utility"
 	"context"
 	"errors"
+	"globetrotter_api/model"
 	"globetrotter_api/service"
+	"globetrotter_api/utility"
 	"log"
 	"net/http"
 

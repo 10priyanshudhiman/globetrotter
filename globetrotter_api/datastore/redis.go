@@ -1,8 +1,8 @@
 package datastore
 
 import (
-	"common/config"
 	"fmt"
+	"globetrotter_api/config"
 	"log"
 
 	"github.com/redis/go-redis/v9"
