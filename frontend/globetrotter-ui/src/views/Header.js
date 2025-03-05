@@ -31,7 +31,7 @@ const Header = ({ user }) => {
     generateInviteImage(totalScore,correctAnswers,incorrectAnswers);
      
     }
-  }, [isModalVisible]);
+  }, [isModalVisible,totalScore,correctAnswers,incorrectAnswers]);
 
   const generateInviteImage = (totalScore,correctAnswers,incorrectAnswers) => {
     

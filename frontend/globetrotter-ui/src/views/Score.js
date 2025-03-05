@@ -54,7 +54,7 @@ const Score = ({ userActionResult, user }) => {
         setFunFact(facts[factKeys[Math.floor(Math.random() * factKeys.length)]]);
       }
     }
-  }, [userActionResult]);
+  }, [userActionResult,user?.userId]);
 
   return (
     <div className="container" style={{ textAlign: "center", padding: "20px" }}>
