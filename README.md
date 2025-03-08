@@ -35,7 +35,7 @@ server:
 
 log:
   path: "./logs/"
-  apiName: "affluenceAPILogs-%Y-%m-%d.log"
+  apiName: "Logs-%Y-%m-%d.log"
   rotationTime: 24
   maxAge: 0
 
