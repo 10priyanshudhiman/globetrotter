@@ -22,7 +22,7 @@ function AppContent() {
 
   return (
     <>
-      {/* <FetchUserDetails/> */}
+      <FetchUserDetails/>
       {isLoggedIn && location.pathname !== "/" && <Header />}
       <Routes>
         <Route index path="/" element={<Login />} />
